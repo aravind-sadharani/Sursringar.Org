@@ -1,0 +1,139 @@
+/*
+Chandraveena Website - Styled Prototype by Aravind Iyer - www.aravindiyer.com
+Copyright 2018 S. Balachander - chandraveena.com
+*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+  color: #4a413f;
+  line-height: 1.5;
+}
+
+h1 {
+  font-family: 'Marck Script', sans-serif;
+  color: #c1cad9;
+  font-size: 3em;
+  line-height: 1.5;
+}
+
+h2, h3 {
+  font-family: 'Kavivanar', serif;
+  font-weight: 700;
+  color: #4a413f;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 1.4em;
+}
+
+#intro {
+  position: relative;
+  padding: 3vmin;
+}
+
+.container {
+  background-color: #dad2d0;
+  padding: 3vmin;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 1vmin;
+}
+
+.container h1 {
+  color: #4a413f;
+}
+
+.figure {
+  display: flex;
+  width: 80vmin;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.figure img {
+  border-radius: 2vmin;
+  height: 80vmin;
+  max-height: 640px;
+  box-shadow: 0 0.5vmin 1vmin 0 #4a413f;
+  margin: 0 auto;
+}
+
+.noticebox {
+  background-color: #c1cad9;
+  padding: 2vmin 2vmin 6vmin;
+  margin: 2vmin;
+  border-radius: 1vmin;
+  box-shadow: 0 0.2vmin 0.5vmin 0 #4a413f;
+}
+
+.actionbox {
+  text-align: center;
+}
+
+.action {
+  background-color: #9b6aab;
+  border-radius: 1vmin;
+  color: #ffffff;
+  font-size: 1.1em;
+  padding: 1vmin 4vmin;
+  box-shadow: 0 0 0.5vmin 0 #4a413f;
+}
+
+a {
+  text-decoration: none;
+  color: #9b6aab;
+  font-weight: 700;
+}
+
+footer{
+  background-color: #4a413f;
+  color: #dad2d0;
+  padding: 3vmin;
+}
+
+footer li {
+  display: inline-block;
+}
+
+nav {
+  text-align: center;
+  background-color: #5c3129;
+  width: 100vw;
+  padding: 1vmin 0;
+  z-index: 1;
+  box-shadow: 0 0 2vmin 0 #4a413f;
+}
+
+nav h1{
+  display: inline-block;
+}
+
+h1.title img {
+  height: 1.2em;
+  position: relative;
+  top: 0.15em;
+}
+
+h1.cover {
+  line-height: 1;
+}
+
+.LinkSpan {
+  color: #9b6aab;
+  font-weight: 700;
+}
+
+.YouTubeSpan {
+  color: #ff0000;
+  font-weight: 700;
+}
+
+.BandCampSpan {
+  color: #408294;
+  font-weight: 700;
+}
