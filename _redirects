@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://hopeful-stonebraker-d02a08.netlify.com/* https://www.sursringar.org/:splat 301!
